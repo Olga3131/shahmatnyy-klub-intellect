@@ -152,17 +152,14 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    <div className="flex justify-between items-center p-3 bg-white rounded-lg border">
+                    <div className="flex justify-center items-center p-3 bg-white rounded-lg border">
                       <span className="font-medium">17:30 - 18:30</span>
-                      <Badge variant="outline">Группа 1</Badge>
                     </div>
-                    <div className="flex justify-between items-center p-3 bg-white rounded-lg border">
+                    <div className="flex justify-center items-center p-3 bg-white rounded-lg border">
                       <span className="font-medium">18:40 - 19:40</span>
-                      <Badge variant="outline">Группа 2</Badge>
                     </div>
-                    <div className="flex justify-between items-center p-3 bg-white rounded-lg border">
+                    <div className="flex justify-center items-center p-3 bg-white rounded-lg border">
                       <span className="font-medium">19:50 - 20:50</span>
-                      <Badge variant="outline">Группа 3</Badge>
                     </div>
                   </div>
                 </CardContent>
@@ -178,9 +175,8 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    <div className="flex justify-between items-center p-3 bg-white rounded-lg border">
+                    <div className="flex justify-center items-center p-3 bg-white rounded-lg border">
                       <span className="font-medium">11:00 - 12:00</span>
-                      <Badge variant="outline">Группа выходного дня</Badge>
                     </div>
                     <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                       <p className="text-sm text-blue-800">
