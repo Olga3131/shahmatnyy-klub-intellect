@@ -383,18 +383,18 @@ export default function Index() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
-                  <Icon name="Phone" className="mr-2" size={20} />
-                  Позвонить сейчас
-                </Button>
-                <Button variant="outline" className="w-full">
-                  <Icon name="MessageCircle" className="mr-2" size={20} />
-                  Написать в WhatsApp
-                </Button>
-                <Button variant="outline" className="w-full">
-                  <Icon name="Send" className="mr-2" size={20} />
-                  Написать в Telegram
-                </Button>
+                <a href="tel:8-963-013-31-31" className="block w-full">
+                  <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                    <Icon name="Phone" className="mr-2" size={20} />
+                    8-963-013-31-31
+                  </Button>
+                </a>
+                <a href="https://t.me/OLARUDOMETOVA" target="_blank" rel="noopener noreferrer" className="block w-full">
+                  <Button variant="outline" className="w-full">
+                    <Icon name="Send" className="mr-2" size={20} />
+                    Написать в Telegram
+                  </Button>
+                </a>
                 <div className="text-center pt-4">
                   <p className="text-sm text-gray-600">
                     Ответим в течение 15 минут в рабочее время
