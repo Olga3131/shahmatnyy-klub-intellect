@@ -161,6 +161,12 @@ export default function Index() {
                     <div className="flex justify-center items-center p-3 bg-white rounded-lg border">
                       <span className="font-medium">19:50 - 20:50</span>
                     </div>
+                    <div className="mt-4 p-4 bg-blue-50 rounded-lg">
+                      <p className="text-sm text-blue-800">
+                        <Icon name="Info" className="inline mr-2" size={16} />
+                        По мере формирования групп возможны утренние часы занятий
+                      </p>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
