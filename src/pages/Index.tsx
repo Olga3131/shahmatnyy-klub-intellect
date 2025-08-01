@@ -50,9 +50,9 @@ export default function Index() {
             Обучение шахматам для детей от 5 до 11 лет в уютной атмосфере нашего клуба
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:89630133131">
+            <a href="https://t.me/OLARUDOMETOVA" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-chess-gold hover:bg-chess-gold/90 text-black font-semibold">
-                <Icon name="Phone" className="mr-2" size={20} />
+                <Icon name="Send" className="mr-2" size={20} />
                 Записаться на пробное занятие
               </Button>
             </a>
