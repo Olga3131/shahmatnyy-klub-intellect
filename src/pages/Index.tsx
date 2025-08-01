@@ -50,10 +50,12 @@ export default function Index() {
             Обучение шахматам для детей от 5 до 11 лет в уютной атмосфере нашего клуба
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-chess-gold hover:bg-chess-gold/90 text-black font-semibold">
-              <Icon name="Phone" className="mr-2" size={20} />
-              Записаться на пробное занятие
-            </Button>
+            <a href="tel:89630133131">
+              <Button size="lg" className="bg-chess-gold hover:bg-chess-gold/90 text-black font-semibold">
+                <Icon name="Phone" className="mr-2" size={20} />
+                Записаться на пробное занятие
+              </Button>
+            </a>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
               <Icon name="Calendar" className="mr-2" size={20} />
               Посмотреть расписание
@@ -221,9 +223,11 @@ export default function Index() {
                   <li>✓ Оценка уровня ребенка</li>
                   <li>✓ Подбор подходящей группы</li>
                 </ul>
-                <Button className="w-full mt-4 bg-green-600 hover:bg-green-700">
-                  Записаться
-                </Button>
+                <a href="tel:89630133131" className="block w-full">
+                  <Button className="w-full mt-4 bg-green-600 hover:bg-green-700">
+                    Записаться
+                  </Button>
+                </a>
               </CardContent>
             </Card>
 
@@ -269,9 +273,11 @@ export default function Index() {
                   <li>✓ Регулярные занятия</li>
                   <li>✓ Быстрый прогресс</li>
                 </ul>
-                <Button className="w-full mt-4 bg-chess-gold hover:bg-chess-gold/90 text-black font-semibold">
-                  Купить абонемент
-                </Button>
+                <a href="tel:89630133131" className="block w-full">
+                  <Button className="w-full mt-4 bg-chess-gold hover:bg-chess-gold/90 text-black font-semibold">
+                    Купить абонемент
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
