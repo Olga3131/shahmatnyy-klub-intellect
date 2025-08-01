@@ -338,7 +338,7 @@ export default function Index() {
                       </li>
                       <li className="flex items-center">
                         <Icon name="Medal" className="text-chess-gold mr-3" size={20} />
-                        Призы всем участникам
+                        Грамоты всем участникам
                       </li>
                       <li className="flex items-center">
                         <Icon name="Camera" className="text-chess-gold mr-3" size={20} />
