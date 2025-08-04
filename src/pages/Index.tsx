@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/ui/icon";
+import QRCodeComponent from "@/components/QRCode";
 
 export default function Index() {
   return (
@@ -408,7 +409,11 @@ export default function Index() {
                   </Button>
                 </a>
                 <div className="text-center pt-4">
-                  <p className="text-sm text-gray-600">
+                  <div className="flex flex-col items-center space-y-2">
+                    <p className="text-sm font-medium text-gray-700">QR-код сайта:</p>
+                    <QRCodeComponent value={window.location.href} size={120} className="border rounded-lg p-2 bg-white" />
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4">
                     Ответим в течение 15 минут в рабочее время
                   </p>
                 </div>
