@@ -411,7 +411,7 @@ export default function Index() {
                 <div className="text-center pt-4">
                   <div className="flex flex-col items-center space-y-2">
                     <p className="text-sm font-medium text-gray-700">QR-код сайта:</p>
-                    <QRCodeComponent value={window.location.href} size={120} className="border rounded-lg p-2 bg-white" />
+                    <QRCodeComponent value="https://chessintellect.ru" size={120} className="border rounded-lg p-2 bg-white" />
                   </div>
                   <p className="text-sm text-gray-600 mt-4">
                     Ответим в течение 15 минут в рабочее время
